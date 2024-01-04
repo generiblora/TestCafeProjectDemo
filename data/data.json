@@ -1,0 +1,11 @@
+[
+    {
+        "firstname": "Gene",
+        "lastname": "Riblora",
+        "birthday": "7",
+        "birthmonth": "December",
+        "birthyear": "1983",
+        "email": "generiblora",
+        "password": "123456"
+    } 
+]
