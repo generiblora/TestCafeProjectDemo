@@ -4,11 +4,11 @@ on: [push]
 
 jobs:
   build: Run TestCafe Tests
-  runs-on: windows-latest
+    runs-on: windows-latest
 
-  steps:
-  - uses: actions/checkout@v2
-  -name: Install TestCafe from npm and Run Tests
-    uses: DevExpress/testcafe-action@latest
-    with:
-      args: "chrome tests"
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install TestCafe from npm and Run Tests
+      uses: DevExpress/testcafe-action@latest
+      with:
+        args: "chrome tests"
