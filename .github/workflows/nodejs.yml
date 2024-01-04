@@ -3,7 +3,8 @@ name: TestCafe Workflow
 on: [push]
 
 jobs:
-  build: Run TestCafe Tests
+  build: 
+    name: Run TestCafe Tests
     runs-on: windows-latest
 
     steps:
